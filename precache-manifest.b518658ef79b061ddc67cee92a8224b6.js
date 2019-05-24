@@ -188,8 +188,8 @@ self.__precacheManifest = [
     "url": "img/healing_wind.892e0a48.png"
   },
   {
-    "revision": "fb5f0484baf688b8ae05",
-    "url": "js/app.8f8afb2e.js"
+    "revision": "1445058ddf7c3963e340",
+    "url": "js/app.553e630b.js"
   },
   {
     "revision": "31a1270ee6c45d1399bd",
@@ -368,11 +368,11 @@ self.__precacheManifest = [
     "url": "img/swamp_monster.ddeada0e.png"
   },
   {
-    "revision": "c3741344e8913409076cfeaf42936fb8",
+    "revision": "3ad622807b76f43c54c60c81a99478d0",
     "url": "index.html"
   },
   {
-    "revision": "fb5f0484baf688b8ae05",
-    "url": "css/app.803b20cf.css"
+    "revision": "1445058ddf7c3963e340",
+    "url": "css/app.97d6e77a.css"
   }
 ];
