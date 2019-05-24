@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "img/electric_field.864b4962.png"
   },
   {
-    "revision": "31a1270ee6c45d1399bd",
-    "url": "css/chunk-vendors.19588e8d.css"
+    "revision": "e52ffb5322c94df3d3be",
+    "url": "css/chunk-vendors.4d9c9b27.css"
   },
   {
     "revision": "4d80680bfd7e7f7caa71ee4f3060a097",
@@ -188,11 +188,11 @@ self.__precacheManifest = [
     "url": "img/healing_wind.892e0a48.png"
   },
   {
-    "revision": "1445058ddf7c3963e340",
-    "url": "js/app.553e630b.js"
+    "revision": "f553cc500627b14335f0",
+    "url": "js/app.723d57e9.js"
   },
   {
-    "revision": "31a1270ee6c45d1399bd",
+    "revision": "e52ffb5322c94df3d3be",
     "url": "js/chunk-vendors.670eaae4.js"
   },
   {
@@ -368,11 +368,11 @@ self.__precacheManifest = [
     "url": "img/swamp_monster.ddeada0e.png"
   },
   {
-    "revision": "3ad622807b76f43c54c60c81a99478d0",
+    "revision": "b7fcf56d57d60eb956dfcac2e433085b",
     "url": "index.html"
   },
   {
-    "revision": "1445058ddf7c3963e340",
-    "url": "css/app.97d6e77a.css"
+    "revision": "f553cc500627b14335f0",
+    "url": "css/app.a0773b37.css"
   }
 ];
