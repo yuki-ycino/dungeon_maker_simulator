@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d7a67323d14a3fc70a137b17f75ae020.js"
+  "precache-manifest.eb4a11812981f5baed6941756bc9e774.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dungeon_simulator"});
