@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button variant="outline-primary" v-b-modal="roomId">
+    <b-button class="room-button" variant="outline-primary" v-b-modal="roomId">
       <img :src="require(`../assets/rooms/${room}.png`)" />
     </b-button>
     <b-modal :id="roomId" ref="modal" hide-header hide-footer>
@@ -24,6 +24,9 @@
       <Traps v-if="type === 'traps'" v-on:set-room="setRoom" />
       <Facilities v-if="type === 'facilities'" v-on:set-room="setRoom" />
       <Prisons v-if="type === 'prisons'" v-on:set-room="setRoom" />
+      <b-button class="mt-3" block @click="$bvModal.hide(roomId)"
+        >Cancel</b-button
+      >
     </b-modal>
   </div>
 </template>
@@ -69,16 +72,16 @@ img {
   height: 48px;
 }
 
-button {
+.room-button {
   margin: 4px;
   padding: 4px;
   border: 0;
 }
 
-button:hover,
-button:active,
-button:focus,
-button:not(:disabled):not(.disabled):active {
+.room-button:hover,
+.room-button:active,
+.room-button:focus,
+.room-button:not(:disabled):not(.disabled):active {
   background-color: #fff;
   box-shadow: none !important;
 }
